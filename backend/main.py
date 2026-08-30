@@ -1,6 +1,8 @@
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
-from data_processing import load_data, get_rows, get_stats
+from pydantic import BaseModel
+from data_processing import load_data, get_rows, get_stats, get_summary_text
+from ai_assistant import ask
 
 app = FastAPI(title="Predylics Data Assistant API")
 
@@ -31,3 +33,14 @@ def data(
 @app.get("/stats")
 def stats():
     return get_stats(df)
+
+
+class Question(BaseModel):
+    question: str
+
+
+@app.post("/ask")
+def ask_question(body: Question):
+    summary = get_summary_text(df)
+    answer = ask(body.question, summary)
+    return {"answer": answer}
