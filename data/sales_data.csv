@@ -1,0 +1,201 @@
+id,date,customer,category,product,quantity,unit_price,country
+1,2026-02-05,Stark Industries,Services,Training Session,13,479,Germany
+2,2026-01-28,Hooli,Cloud,Cloud Storage,16,194,Spain
+3,2026-04-25,Pied Piper,Hardware,Network Switch,15,859,Morocco
+4,2026-02-14,Dunder Mifflin,Hardware,Server Rack,1,3932,Germany
+5,2026-03-24,Acme Corp,Hardware,Network Switch,9,848,Spain
+6,2026-04-03,Cyberdyne,Hardware,Workstation,20,1637,France
+7,2026-06-27,Globex,Software,CRM Suite,15,1276,Morocco
+8,2026-01-16,Stark Industries,Hardware,Network Switch,11,762,Spain
+9,2026-05-10,Dunder Mifflin,Software,Analytics Pro,2,1375,UK
+10,2026-03-21,Stark Industries,AI,ML Pipeline,5,1875,Germany
+11,2026-04-29,Stark Industries,Software,Analytics Pro,9,1643,USA
+12,2026-02-18,Globex,AI,Vision API,7,812,Morocco
+13,2026-04-01,Globex,Cloud,CDN Service,4,157,UK
+14,2026-01-31,Hooli,Cloud,CDN Service,8,163,USA
+15,2026-03-30,Dunder Mifflin,AI,Vision API,13,942,France
+16,2026-05-17,Initech,Software,CRM Suite,20,1163,Germany
+17,2026-05-05,Stark Industries,Hardware,Workstation,19,1681,USA
+18,2026-02-22,Cyberdyne,AI,Vision API,18,978,USA
+19,2026-05-22,Initech,Hardware,Server Rack,8,4067,Morocco
+20,2026-04-02,Wayne Enterprises,AI,Vision API,13,812,Morocco
+21,2026-02-03,Cyberdyne,Cloud,Cloud Storage,4,199,Germany
+22,2026-03-23,Stark Industries,Cloud,Cloud Storage,1,187,France
+23,2026-02-22,Initech,Cloud,CDN Service,7,138,Morocco
+24,2026-01-14,Stark Industries,Software,CRM Suite,6,1158,France
+25,2026-05-30,Stark Industries,Hardware,Server Rack,11,3606,USA
+26,2026-02-19,Dunder Mifflin,AI,Vision API,14,966,USA
+27,2026-02-23,Globex,Cloud,CDN Service,2,135,Morocco
+28,2026-05-30,Cyberdyne,Software,ERP System,11,2821,UK
+29,2026-04-17,Umbrella Ltd,Services,Training Session,17,532,Germany
+30,2026-05-09,Dunder Mifflin,Software,Analytics Pro,13,1391,USA
+31,2026-04-20,Wayne Enterprises,AI,ML Pipeline,3,1822,France
+32,2026-05-14,Pied Piper,Hardware,Server Rack,8,4278,USA
+33,2026-06-23,Pied Piper,Cloud,Cloud Storage,15,203,Spain
+34,2026-06-20,Dunder Mifflin,Cloud,Cloud Compute,1,472,UK
+35,2026-06-19,Cyberdyne,AI,AI Assistant,12,812,UK
+36,2026-01-19,Acme Corp,Services,Training Session,13,535,UK
+37,2026-05-02,Pied Piper,Hardware,Workstation,11,1621,UK
+38,2026-03-24,Acme Corp,Hardware,Server Rack,13,3758,Morocco
+39,2026-05-05,Pied Piper,Cloud,Cloud Storage,14,214,USA
+40,2026-04-25,Acme Corp,Hardware,Network Switch,13,780,Morocco
+41,2026-01-19,Umbrella Ltd,Hardware,Network Switch,5,859,Spain
+42,2026-01-19,Stark Industries,Services,Training Session,8,516,France
+43,2026-02-19,Stark Industries,Hardware,Server Rack,12,3736,UK
+44,2026-06-14,Pied Piper,Software,CRM Suite,6,1232,Germany
+45,2026-05-17,Acme Corp,Software,ERP System,1,2826,Spain
+46,2026-05-23,Wayne Enterprises,Services,Consulting Day,9,980,Germany
+47,2026-02-21,Globex,Hardware,Server Rack,15,4258,UK
+48,2026-06-05,Umbrella Ltd,Hardware,Network Switch,6,794,UK
+49,2026-04-10,Acme Corp,AI,Vision API,14,814,Spain
+50,2026-03-25,Dunder Mifflin,Hardware,Network Switch,16,832,USA
+51,2026-02-12,Acme Corp,Cloud,CDN Service,16,161,Germany
+52,2026-06-03,Cyberdyne,Cloud,CDN Service,2,158,Spain
+53,2026-01-28,Stark Industries,Services,Support Pack,20,287,UK
+54,2026-01-21,Cyberdyne,Software,Analytics Pro,2,1495,USA
+55,2026-04-03,Wayne Enterprises,Cloud,Cloud Compute,17,495,Germany
+56,2026-06-22,Stark Industries,Cloud,Cloud Compute,1,535,Morocco
+57,2026-01-06,Stark Industries,Services,Support Pack,4,312,Spain
+58,2026-05-08,Cyberdyne,Services,Consulting Day,11,1015,Spain
+59,2026-04-26,Wayne Enterprises,AI,ML Pipeline,8,2052,Spain
+60,2026-01-04,Cyberdyne,Cloud,Cloud Storage,3,181,Morocco
+61,2026-05-07,Dunder Mifflin,Services,Support Pack,18,287,UK
+62,2026-01-29,Stark Industries,Hardware,Workstation,11,1830,Germany
+63,2026-06-04,Pied Piper,AI,AI Assistant,7,809,USA
+64,2026-06-27,Hooli,Cloud,Cloud Compute,13,463,France
+65,2026-04-29,Globex,Software,CRM Suite,18,1229,Germany
+66,2026-03-14,Wayne Enterprises,Services,Consulting Day,17,999,France
+67,2026-05-20,Initech,Cloud,CDN Service,18,151,UK
+68,2026-02-17,Stark Industries,Cloud,CDN Service,13,150,Morocco
+69,2026-04-11,Globex,Hardware,Network Switch,12,761,USA
+70,2026-01-05,Initech,AI,Vision API,4,961,France
+71,2026-04-25,Acme Corp,Cloud,CDN Service,4,135,UK
+72,2026-03-28,Pied Piper,Software,CRM Suite,6,1308,France
+73,2026-06-21,Acme Corp,Software,Analytics Pro,18,1375,USA
+74,2026-06-12,Hooli,Software,ERP System,5,3244,Spain
+75,2026-06-20,Initech,Software,ERP System,5,3121,USA
+76,2026-06-24,Dunder Mifflin,Services,Consulting Day,2,988,Morocco
+77,2026-01-03,Umbrella Ltd,Cloud,CDN Service,8,144,Germany
+78,2026-02-04,Initech,Cloud,Cloud Compute,4,535,France
+79,2026-03-03,Cyberdyne,Hardware,Server Rack,1,4326,France
+80,2026-06-25,Initech,AI,ML Pipeline,3,2078,Spain
+81,2026-03-09,Acme Corp,Services,Consulting Day,2,966,France
+82,2026-05-31,Dunder Mifflin,Hardware,Network Switch,10,736,USA
+83,2026-03-14,Acme Corp,AI,ML Pipeline,6,1895,Germany
+84,2026-03-28,Cyberdyne,Cloud,Cloud Storage,4,219,USA
+85,2026-04-04,Stark Industries,Software,Analytics Pro,14,1543,USA
+86,2026-06-22,Pied Piper,Cloud,Cloud Compute,3,454,Morocco
+87,2026-01-07,Dunder Mifflin,Cloud,Cloud Storage,16,190,Morocco
+88,2026-04-21,Acme Corp,AI,Vision API,9,874,Spain
+89,2026-03-10,Cyberdyne,AI,Vision API,11,893,USA
+90,2026-06-11,Acme Corp,Services,Training Session,4,507,Spain
+91,2026-03-01,Wayne Enterprises,Cloud,Cloud Compute,12,518,USA
+92,2026-02-15,Pied Piper,Hardware,Network Switch,2,722,UK
+93,2026-04-29,Hooli,AI,AI Assistant,15,767,France
+94,2026-02-01,Umbrella Ltd,Software,ERP System,11,2841,France
+95,2026-02-09,Acme Corp,Software,ERP System,12,3296,Germany
+96,2026-01-08,Globex,Services,Training Session,12,452,USA
+97,2026-02-02,Acme Corp,Hardware,Network Switch,2,877,Morocco
+98,2026-03-06,Stark Industries,AI,AI Assistant,17,787,Germany
+99,2026-04-28,Globex,Cloud,Cloud Compute,7,523,USA
+100,2026-06-28,Umbrella Ltd,Software,CRM Suite,3,1183,France
+101,2026-03-28,Pied Piper,AI,AI Assistant,20,748,Morocco
+102,2026-02-12,Umbrella Ltd,AI,AI Assistant,16,748,USA
+103,2026-01-30,Umbrella Ltd,Hardware,Server Rack,2,4212,Germany
+104,2026-04-28,Wayne Enterprises,AI,AI Assistant,13,778,France
+105,2026-03-13,Umbrella Ltd,Cloud,Cloud Storage,15,183,USA
+106,2026-06-07,Initech,Hardware,Network Switch,20,850,Morocco
+107,2026-05-19,Stark Industries,Services,Consulting Day,9,1083,USA
+108,2026-05-11,Umbrella Ltd,Hardware,Server Rack,5,3619,Spain
+109,2026-01-12,Globex,Cloud,Cloud Compute,18,480,Spain
+110,2026-02-19,Pied Piper,Hardware,Server Rack,7,3914,Morocco
+111,2026-06-09,Stark Industries,Software,ERP System,9,2792,Morocco
+112,2026-06-04,Pied Piper,Cloud,Cloud Storage,14,200,Spain
+113,2026-04-19,Pied Piper,Services,Support Pack,3,307,Morocco
+114,2026-04-14,Umbrella Ltd,Hardware,Workstation,2,1907,UK
+115,2026-01-06,Pied Piper,Software,CRM Suite,15,1161,USA
+116,2026-03-17,Acme Corp,Cloud,Cloud Compute,17,461,UK
+117,2026-06-11,Pied Piper,AI,Vision API,20,885,Morocco
+118,2026-06-10,Stark Industries,Software,CRM Suite,1,1308,Spain
+119,2026-03-08,Hooli,AI,Vision API,16,823,France
+120,2026-01-23,Globex,Cloud,Cloud Storage,11,208,USA
+121,2026-06-03,Hooli,Services,Training Session,3,524,France
+122,2026-06-10,Hooli,AI,ML Pipeline,15,1907,Morocco
+123,2026-05-10,Globex,Hardware,Workstation,1,1718,USA
+124,2026-02-25,Pied Piper,Hardware,Workstation,14,1850,Germany
+125,2026-04-10,Hooli,Hardware,Server Rack,16,3790,UK
+126,2026-02-05,Acme Corp,Cloud,CDN Service,20,164,Morocco
+127,2026-04-16,Hooli,AI,ML Pipeline,7,2189,USA
+128,2026-03-13,Globex,Services,Support Pack,8,302,Germany
+129,2026-02-22,Initech,Cloud,Cloud Storage,20,210,UK
+130,2026-04-21,Cyberdyne,Hardware,Network Switch,19,780,Germany
+131,2026-01-31,Dunder Mifflin,AI,AI Assistant,8,773,UK
+132,2026-01-07,Umbrella Ltd,Hardware,Network Switch,19,773,Germany
+133,2026-06-21,Hooli,AI,ML Pipeline,4,1858,Morocco
+134,2026-05-02,Globex,Services,Training Session,12,529,Spain
+135,2026-01-12,Umbrella Ltd,Services,Consulting Day,1,980,Spain
+136,2026-02-06,Initech,Services,Support Pack,15,290,Germany
+137,2026-02-25,Wayne Enterprises,Cloud,Cloud Storage,1,181,Germany
+138,2026-06-08,Stark Industries,AI,Vision API,13,987,USA
+139,2026-03-15,Acme Corp,Services,Consulting Day,7,905,Morocco
+140,2026-05-11,Umbrella Ltd,AI,ML Pipeline,15,1947,France
+141,2026-05-18,Wayne Enterprises,Cloud,Cloud Compute,18,531,Spain
+142,2026-04-02,Wayne Enterprises,Hardware,Server Rack,10,4002,Morocco
+143,2026-03-15,Hooli,Services,Training Session,2,515,Morocco
+144,2026-04-29,Initech,Cloud,Cloud Compute,14,482,UK
+145,2026-01-06,Pied Piper,Cloud,CDN Service,15,145,UK
+146,2026-04-02,Initech,AI,Vision API,6,929,Germany
+147,2026-01-18,Umbrella Ltd,Hardware,Network Switch,13,830,Germany
+148,2026-02-27,Hooli,Cloud,Cloud Compute,8,519,Morocco
+149,2026-02-06,Hooli,Cloud,CDN Service,14,161,France
+150,2026-04-13,Hooli,Services,Training Session,17,543,Morocco
+151,2026-04-11,Hooli,AI,AI Assistant,11,819,UK
+152,2026-01-30,Pied Piper,Hardware,Workstation,7,1771,USA
+153,2026-02-12,Stark Industries,Cloud,Cloud Storage,3,210,Spain
+154,2026-01-27,Initech,AI,ML Pipeline,5,2198,Germany
+155,2026-01-28,Cyberdyne,Cloud,CDN Service,5,138,UK
+156,2026-01-29,Pied Piper,Cloud,Cloud Compute,4,509,France
+157,2026-01-06,Umbrella Ltd,Services,Training Session,13,454,Morocco
+158,2026-04-04,Dunder Mifflin,Services,Consulting Day,1,1010,Spain
+159,2026-06-29,Globex,AI,AI Assistant,15,800,Morocco
+160,2026-03-22,Globex,Services,Consulting Day,13,956,Morocco
+161,2026-05-04,Stark Industries,Software,CRM Suite,19,1107,Morocco
+162,2026-02-02,Wayne Enterprises,Hardware,Network Switch,16,728,USA
+163,2026-05-15,Hooli,Services,Consulting Day,14,1006,Germany
+164,2026-05-15,Globex,Software,CRM Suite,3,1290,France
+165,2026-05-03,Stark Industries,Software,CRM Suite,10,1219,Germany
+166,2026-01-19,Umbrella Ltd,AI,Vision API,14,940,Spain
+167,2026-03-11,Hooli,AI,Vision API,16,967,UK
+168,2026-06-10,Acme Corp,AI,Vision API,2,894,UK
+169,2026-02-19,Initech,Cloud,Cloud Compute,6,527,France
+170,2026-06-04,Stark Industries,Hardware,Workstation,9,1757,Morocco
+171,2026-03-28,Dunder Mifflin,Services,Support Pack,6,324,Germany
+172,2026-05-08,Acme Corp,Hardware,Network Switch,2,834,Spain
+173,2026-03-01,Pied Piper,AI,AI Assistant,11,773,Germany
+174,2026-01-05,Cyberdyne,Services,Training Session,1,484,USA
+175,2026-06-30,Umbrella Ltd,AI,Vision API,6,985,Germany
+176,2026-03-05,Umbrella Ltd,Services,Training Session,7,490,Spain
+177,2026-05-18,Dunder Mifflin,Services,Support Pack,12,273,France
+178,2026-04-11,Pied Piper,AI,ML Pipeline,19,1885,Morocco
+179,2026-04-21,Acme Corp,Software,ERP System,5,3046,Morocco
+180,2026-05-23,Wayne Enterprises,Cloud,CDN Service,11,147,UK
+181,2026-01-28,Dunder Mifflin,Software,Analytics Pro,15,1435,Germany
+182,2026-03-27,Hooli,Cloud,Cloud Storage,11,184,USA
+183,2026-01-04,Hooli,Cloud,CDN Service,7,160,UK
+184,2026-01-20,Initech,AI,ML Pipeline,13,2011,Morocco
+185,2026-06-01,Acme Corp,Hardware,Server Rack,17,3775,France
+186,2026-03-28,Wayne Enterprises,AI,AI Assistant,15,799,Morocco
+187,2026-06-12,Dunder Mifflin,Software,ERP System,10,2946,Germany
+188,2026-05-09,Globex,AI,ML Pipeline,18,1973,UK
+189,2026-01-23,Umbrella Ltd,AI,Vision API,9,901,Germany
+190,2026-02-19,Dunder Mifflin,AI,Vision API,18,919,Morocco
+191,2026-01-01,Wayne Enterprises,Services,Training Session,7,501,UK
+192,2026-06-16,Acme Corp,Software,CRM Suite,15,1150,Spain
+193,2026-04-21,Acme Corp,Services,Support Pack,12,304,Spain
+194,2026-03-01,Acme Corp,Cloud,Cloud Compute,11,462,UK
+195,2026-06-03,Cyberdyne,Hardware,Workstation,15,1692,Morocco
+196,2026-02-14,Dunder Mifflin,Hardware,Network Switch,4,834,France
+197,2026-06-25,Stark Industries,Hardware,Workstation,14,1832,USA
+198,2026-05-27,Acme Corp,Cloud,Cloud Compute,8,513,France
+199,2026-02-17,Globex,Cloud,Cloud Storage,3,198,France
+200,2026-01-27,Globex,AI,AI Assistant,13,756,Germany
