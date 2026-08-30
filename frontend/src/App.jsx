@@ -5,7 +5,7 @@ import Charts from './components/Charts'
 import DataTable from './components/DataTable'
 import AIAssistant from './components/AIAssistant'
 
-const API = 'http://localhost:8001'
+const API = import.meta.env.VITE_API_URL || 'http://localhost:8001'
 
 export default function App() {
   const [stats, setStats] = useState(null)
