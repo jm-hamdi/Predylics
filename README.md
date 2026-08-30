@@ -1,4 +1,4 @@
-# Predylics — Data Assistant
+# Predylics - Data Assistant
 
 A mini smart data analysis app built for the Predylics technical test.
 
@@ -59,4 +59,4 @@ Run `python data/generate_dataset.py` to regenerate it.
 
 ---
 
-*Predylics Technical Test — Software Engineer AI — Jawad Mhamdi*
+*Predylics Technical Test - Software Engineer AI - Jawad Mhamdi*
