@@ -1,9 +1,26 @@
 import {
-  BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer,
+  BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid,
   PieChart, Pie, Cell, Legend,
 } from 'recharts'
 
-const COLORS = ['#6366f1', '#f59e0b', '#10b981', '#ef4444', '#8b5cf6']
+const BAR_COLOR = '#1e40af'
+const PIE_COLORS = ['#1e40af', '#d97706', '#1d4ed8', '#b45309', '#3b82f6', '#f59e0b']
+
+const CustomTooltip = ({ active, payload, label }) => {
+  if (active && payload && payload.length) {
+    return (
+      <div className="bg-blue-900 text-white px-3 py-2 rounded-lg text-xs font-mono shadow-lg">
+        {label && <p className="text-blue-300 mb-1">{label}</p>}
+        <p className="text-amber-400 font-semibold">
+          {payload[0].name === 'revenue'
+            ? `€${payload[0].value.toLocaleString()}`
+            : payload[0].value}
+        </p>
+      </div>
+    )
+  }
+  return null
+}
 
 export default function Charts({ stats }) {
   if (!stats) return null
@@ -20,31 +37,44 @@ export default function Charts({ stats }) {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-      {/* Bar chart */}
-      <div className="bg-white rounded-xl p-5 shadow-sm border border-slate-100">
-        <h2 className="text-slate-700 font-semibold mb-4">Revenue by Category</h2>
-        <ResponsiveContainer width="100%" height={220}>
-          <BarChart data={barData}>
-            <XAxis dataKey="name" tick={{ fontSize: 12 }} />
-            <YAxis tick={{ fontSize: 12 }} />
-            <Tooltip formatter={(v) => `€${v.toLocaleString()}`} />
-            <Bar dataKey="revenue" fill="#6366f1" radius={[4, 4, 0, 0]} />
+      <div className="bg-white rounded-xl p-5 border border-[#dbeafe] shadow-sm">
+        <h2 className="text-blue-900 font-semibold text-sm mb-1">Revenue by Category</h2>
+        <p className="text-blue-400 text-xs mb-4 font-mono">in euros (€)</p>
+        <ResponsiveContainer width="100%" height={200}>
+          <BarChart data={barData} barCategoryGap="30%">
+            <CartesianGrid strokeDasharray="3 3" stroke="#dbeafe" vertical={false} />
+            <XAxis dataKey="name" tick={{ fontSize: 11, fill: '#475569', fontFamily: 'Fira Sans' }} axisLine={false} tickLine={false} />
+            <YAxis tick={{ fontSize: 11, fill: '#475569', fontFamily: 'Fira Code' }} axisLine={false} tickLine={false} tickFormatter={(v) => `€${(v/1000).toFixed(0)}k`} />
+            <Tooltip content={<CustomTooltip />} />
+            <Bar dataKey="revenue" fill={BAR_COLOR} radius={[5, 5, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      {/* Pie chart */}
-      <div className="bg-white rounded-xl p-5 shadow-sm border border-slate-100">
-        <h2 className="text-slate-700 font-semibold mb-4">Orders by Country</h2>
-        <ResponsiveContainer width="100%" height={220}>
+      <div className="bg-white rounded-xl p-5 border border-[#dbeafe] shadow-sm">
+        <h2 className="text-blue-900 font-semibold text-sm mb-1">Orders by Country</h2>
+        <p className="text-blue-400 text-xs mb-4 font-mono">number of orders</p>
+        <ResponsiveContainer width="100%" height={200}>
           <PieChart>
-            <Pie data={pieData} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={80} label>
+            <Pie
+              data={pieData}
+              dataKey="value"
+              nameKey="name"
+              cx="50%"
+              cy="50%"
+              outerRadius={75}
+              innerRadius={30}
+            >
               {pieData.map((_, i) => (
-                <Cell key={i} fill={COLORS[i % COLORS.length]} />
+                <Cell key={i} fill={PIE_COLORS[i % PIE_COLORS.length]} />
               ))}
             </Pie>
-            <Legend />
-            <Tooltip />
+            <Legend
+              iconType="circle"
+              iconSize={8}
+              formatter={(value) => <span style={{ fontSize: 11, color: '#475569', fontFamily: 'Fira Sans' }}>{value}</span>}
+            />
+            <Tooltip content={<CustomTooltip />} />
           </PieChart>
         </ResponsiveContainer>
       </div>

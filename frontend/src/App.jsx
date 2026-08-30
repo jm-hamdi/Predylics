@@ -25,33 +25,45 @@ export default function App() {
   }, [])
 
   if (loading) return (
-    <div className="min-h-screen flex items-center justify-center bg-slate-100">
-      <p className="text-slate-500 text-lg">Loading data...</p>
+    <div className="min-h-screen flex items-center justify-center bg-[#f0f4f8]">
+      <div className="text-center">
+        <div className="w-8 h-8 border-4 border-blue-800 border-t-amber-500 rounded-full animate-spin mx-auto mb-3" />
+        <p className="text-blue-900 font-mono text-sm">Loading data...</p>
+      </div>
     </div>
   )
 
   return (
-    <div className="min-h-screen bg-slate-100">
+    <div className="min-h-screen bg-[#f0f4f8]">
       {/* Header */}
-      <header className="bg-white border-b border-slate-200 px-8 py-5">
+      <header className="bg-blue-900 px-6 py-4 shadow-md">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div>
-            <h1 className="text-2xl font-bold text-slate-800">Predylics</h1>
-            <p className="text-slate-500 text-sm">Data Assistant — Sales Analysis</p>
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 bg-amber-500 rounded-lg flex items-center justify-center">
+              <span className="text-blue-900 font-mono font-bold text-sm">P</span>
+            </div>
+            <div>
+              <h1 className="text-white font-semibold text-lg leading-none">Predylics</h1>
+              <p className="text-blue-300 text-xs mt-0.5">Sales Data Assistant</p>
+            </div>
           </div>
-          <div className="text-right text-sm text-slate-400">
+          <div className="text-right font-mono text-xs text-blue-300">
             <p>{total} records</p>
             <p>{stats?.date_range?.from} → {stats?.date_range?.to}</p>
           </div>
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto px-8 py-8 space-y-8">
+      <main className="max-w-7xl mx-auto px-6 py-7 space-y-6">
         <StatsCards stats={stats} />
         <Charts stats={stats} />
         <DataTable rows={rows} />
         <AIAssistant api={API} />
       </main>
+
+      <footer className="text-center py-4 text-blue-400 font-mono text-xs">
+        Predylics — Technical Test · Jawad Mhamdi
+      </footer>
     </div>
   )
 }
